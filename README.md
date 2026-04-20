@@ -28,6 +28,20 @@ Animacja prezentująca realne, historyczne zmiany zasięgu lodu morskiego uchwyc
 Porównanie surowych danych z wygładzonym trendem (Model cykliczny) oraz obszarem zmienności historycznej ($\pm2\sigma$).
 ![Analiza trendu](analiza_sezonowosci_longitude_30E.png)
 
+# Antarctica Ice Edge Predictor ❄️
+
+Interaktywna aplikacja webowa wykorzystująca model **Random Forest** do przewidywania zasięgu lodu na Antarktydzie.
+
+## Funkcje
+- Predykcja szerokości geograficznej granicy lodu na podstawie dnia roku i kąta.
+- Interaktywny interfejs z wykresem biegunowym (Chart.js).
+- API zbudowane w FastAPI.
+
+## Jak uruchomić?
+1. Zainstaluj biblioteki: `pip install -r requirements.txt`
+2. Uruchom serwer: `uvicorn main:app`
+3. Otwórz `http://127.0.0.1:8000`
+
 ## 🛠️ Technologie
 * **Język:** Python 3.x
 * **Biblioteki:** `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `imageio`, `tqdm`
