@@ -10,7 +10,7 @@ Zastosowany model **Random Forest** osiągnął wysoką skuteczność w przewidy
 
 ##  Kluczowe Funkcjonalności
 1. **Analiza Sezonowości:** Dopasowanie regresji sinusoidalnej do cykli rocznych.
-2. **Modelowanie ML:** Wykorzystanie lasów losowych do predykcji dynamicznej granicy lodu.
+2. **Modelowanie ML:** Wykorzystanie random forestu do predykcji dynamicznej granicy lodu.
 3. **Wizualizacje Geoprzestrzenne:** Transformacja współrzędnych biegunowych na kartezjańskie w celu generowania map.
 4. **Automatyczne Generowanie Animacji:** Tworzenie plików GIF obrazujących dynamikę zlodowacenia.
 
